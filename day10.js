@@ -61,7 +61,7 @@ const selectedItem = document.getElementById('selected-item');
 // Attach a click event listener to the parent element (myList)
 myList.addEventListener('click', function(e) {
   // Check if the clicked element is a list item (li)
-  if (e.target.tagName === 'LI') {
+  if (e.target.tagName === 'LI') {da
     // Update the selected item text
     selectedItem.textContent = `Selected item: ${e.target.textContent}`;
   }
