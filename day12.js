@@ -82,14 +82,14 @@ class ApiError extends Error {
     });
 
     // Create a promise that randomly resolves or rejects
-const randomPromise = new Promise((resolve, reject) => {
-    const randomBoolean = Math.random() < 0.5;
-    if (randomBoolean) {
-      resolve('Promise resolved!');
-    } else {
-      reject(new Error('Promise rejected!'));
-    }
-  });
+// const randomPromise = new Promise((resolve, reject) => {
+//     const randomBoolean = Math.random() < 0.5;
+//     if (randomBoolean) {
+//       resolve('Promise resolved!');
+//     } else {
+//       reject(new Error('Promise rejected!'));
+//     }
+  // });
   
   // Use try-catch within an async function to handle errors
   async function handlePromise() {
